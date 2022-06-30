@@ -1,0 +1,302 @@
+/* :root {
+    --primary: #6b980c;
+    --white: #ffffff;
+} */
+
+/* share btn css starts */
+
+.b-cumbs .btn-share {
+    display: flex !important;
+    align-items: center;
+    background-color: transparent;
+    border: none;
+    outline: none;
+    color: #fff;
+}
+
+.b-cumbs .btn-share img {
+    margin-right: 8px;
+    height: 14px;
+}
+
+.b-cumbs .dropdown-toggle::after {
+    display: none !important;
+}
+
+.b-cumbs .dropdown-menu {
+    padding: 0 !important;
+}
+
+.b-cumbs .icon-linkedin {
+    background: #0077b5;
+}
+
+.b-cumbs .icon-facebook {
+    background: #3b5998;
+}
+
+.b-cumbs .icon-twitter {
+    background: #00acee;
+}
+
+.b-cumbs .icon-mail {
+    background: #d44638;
+}
+
+.b-cumbs .dropdown li {
+    padding: 5px 0;
+    border-bottom: 1px solid #7777;
+}
+
+.b-cumbs .dropdown li a {
+    font-size: 18px;
+}
+
+.b-cumbs .dropdown li a:hover {
+    background-color: transparent;
+}
+
+.b-cumbs .dropdown li a i {
+    font-weight: 400;
+    font-size: 18px;
+    color: #fff;
+    padding: 10px;
+    border-radius: 50%;
+    margin-right: 8px;
+}
+
+.b-cumbs .dropdown-item {
+    padding: 0 !important;
+    margin: 10px;
+}
+
+/* share btn css starts */
+
+.top-sec-common {
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: cover;
+    min-height: 370px;
+    position: relative;
+}
+
+.top-sec-common::before {
+    position: absolute;
+    content: "";
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgba(0, 0, 0, 0.55);
+}
+
+/* breadcrumb css starts */
+
+.b-cumbs {
+    margin-top: -40px;
+    z-index: 22;
+    position: relative;
+}
+
+.breadcrumb-item a {
+    color: #95d906;
+}
+
+.breadcrumb-item a:hover {
+    color: #95d906;
+}
+
+.breadcrumb-item.active {
+    color: #fff !important;
+}
+
+/* breadcrumb css ends */
+
+/* mcustomscrollbar css starts */
+
+.mCS-dark-3.mCSB_scrollTools .mCSB_dragger .mCSB_dragger_bar {
+    background-color: #a40114;
+}
+
+.mCS-dark-3.mCSB_scrollTools .mCSB_buttonRight,
+.mCS-dark-3.mCSB_scrollTools .mCSB_buttonLeft {
+    opacity: 1;
+}
+
+.mCS-dark-3.mCSB_scrollTools .mCSB_buttonLeft::before {
+    content: "\e902";
+    position: absolute;
+    top: -3px;
+    font-family: "icomoon" !important;
+    font-size: 16px;
+    color: #000000;
+    font-weight: 700;
+}
+
+.mCS-dark-3.mCSB_scrollTools .mCSB_buttonRight::before {
+    content: "\e908";
+    position: absolute;
+    top: -3px;
+    font-family: "icomoon" !important;
+    font-size: 16px;
+    color: #000000;
+    font-weight: 700;
+}
+
+/* mcustomscrollbar css ends */
+
+/* Main content css starts */
+
+.main-content {
+}
+
+.main-content .tab_scroll {
+    padding-left: 0;
+}
+
+.main-content .tab_scroll li button {
+    color: #000;
+    border-radius: 0;
+    font-weight: 600;
+}
+
+.main-content .tab_scroll .nav-pills .nav-link.active,
+.nav-pills .show > .nav-link {
+    background: transparent;
+    color: var(--primary);
+    border-bottom: 2px solid var(--primary);
+    position: relative;
+}
+
+.main-content .tab_scroll .nav-pills {
+    justify-content: center;
+}
+
+.main-content .tab_scroll .nav-pills .nav-link.active::before {
+    position: absolute;
+    content: "";
+    background: var(--primary);
+    height: 10px;
+    width: 10px;
+    bottom: -7px;
+    left: 0;
+    right: 0;
+    margin: auto;
+    border-bottom: 2px solid var(--primary);
+    transform: rotateZ(45deg);
+}
+
+.main-content .page-detailed-info .info-text {
+    margin: 0 auto;
+    max-width: 600px;
+}
+
+/* Main content css ends */
+
+/* Our Services css Starts */
+
+.our-services {
+}
+
+.our-services .services-list ul {
+    /* padding: 0; */
+    margin: 0;
+}
+
+.our-services .services-list ul li {
+    font-size: 18px;
+    position: relative;
+    margin: 12px 0;
+    padding-left: 10px;
+}
+
+.our-services .services-list ul li::before {
+    position: absolute;
+    content: "\e908";
+    font-family: "icomoon" !important;
+    top: 0;
+    bottom: 0;
+    left: -25px;
+    margin: auto;
+    color: var(--primary);
+}
+
+/* Our Services css ends */
+
+/* industry-standards css starts */
+
+.industry-standards {
+}
+
+.industry-standards .accordion-button:focus {
+    box-shadow: none !important;
+}
+
+.accordion-flush .accordion-item .accordion-button{
+
+}
+
+.industry-standards .accordion-button::after {
+    background-image: url(../images/down-arrow.svg);
+}
+
+.industry-standards .accordion-button:not(.collapsed) {
+    color: var(--primary);
+    background-color: #6c980c2a;
+    font-weight: 600;
+}
+
+.industry-standards .accordion-button:not(.collapsed)::after {
+    background-image: url(../images/down-arrow.svg);
+    transform: rotate(180deg);
+}
+
+.industry-standards .accordion-body {
+    background: #fff;
+    border-radius: 0 0 8px 8px;
+}
+
+.industry-standards .accordion-flush .accordion-item {
+    border: none;
+    margin: 16px 0 !important;
+    border-radius: 8px !important;
+    box-shadow: 0 11px 27px hsl(0deg 0% 56% / 23%);
+    background: #83c30826;
+}
+
+.industry-standards .accordion-flush .accordion-item .accordion-button {
+    font-weight: 700;
+    padding: 30px 22px !important;
+    background: #f4f8ff!important;
+    color: #000;
+}
+
+.industry-standards {
+    padding-left: 0;
+}
+
+.industry-standards .accordion-body .individual-tab-list {
+    padding-left: 0;
+}
+
+.industry-standards .accordion-body .individual-tab-list {
+    font-weight: 500;
+    font-size: 16px;
+    color: #363636;
+}
+
+.industry-standards .accordion-body .individual-tab-list span {
+    font-weight: 600;
+    font-size: 18px;
+    margin-right: 6px;
+    color: #363636;
+}
+
+/* industry-standards css ends */
+
+
+@media (max-width: 767px) {
+    .main-content .page-detailed-info .info-text {
+        margin-top: 50px;
+    }
+}

@@ -1,0 +1,53 @@
+:root {
+    --primary: #6b980c;
+    --white: #ffffff;
+}
+
+.top-sec {
+    min-height: 400px;
+    width: 100%;
+    background-image: url(../images/services/service-banner.jpg);
+    background-position: center;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.top-sec h2 {
+    color: #fff;
+    font-size: 6em;
+    color: #fff;
+    padding: 30px;
+    background-color: #0007;
+    border-radius: 8px;
+}
+
+.main-content {
+    padding: 60px 0;
+}
+
+.main-content .sidenav{
+    border-right: 1px solid #777;
+}
+
+.main-content .sidenav .nav-link {
+    color: var(--primary);
+    text-align: left;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.main-content .sidenav .nav-link:hover {
+    color: var(--primary);
+}
+
+.main-content .sidenav .nav-link[class~="active"] {
+    color: #fff !important;
+    background: var(--primary) !important;
+}
+
+.tab-content{
+    padding-left: 20px;
+}
